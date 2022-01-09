@@ -1,0 +1,44 @@
+disc	     Значение по умолчанию. В качестве маркера элементов списка выступает закрашенный кружок.
+armenian	        Традиционная армянская нумерация.
+circle     	        В качестве маркера выступает незакрашенный кружок.
+cjk-ideographic	        Идеографическая нумерация.
+decimal	                1, 2, 3, 4, 5, …
+decimal-leading-zero	01, 02, 03, 04, 05, …
+georgian	        Традиционная грузинская нумерация.
+hebrew	                Традиционная еврейская нумерация.
+hiragana	        Японская нумерация: a, i, u, e, o, …
+hiragana-iroha	        Японская нумерация: i, ro, ha, ni, ho, …
+katakana	        Японская нумерация: A, I, U, E, O, …
+katakana-iroha	        Японская нумерация: I, RO, HA, NI, HO, …
+lower-alpha	        a, b, c, d, e, …
+lower-greek	        Строчные символы греческого алфавита.
+lower-latin	        a, b, c, d, e, …
+lower-roman	        i, ii, iii, iv, v, …
+none	                Маркер отсутствует.
+square                 	В качестве маркера выступает закрашенный или незакрашенный квадрат.
+upper-alpha	        A, B, C, D, E, …
+upper-latin	        A, B, C, D, E, …
+upper-roman	        I, II, III, IV, V, …
+initial	                Устанавливает значение свойства в значение по умолчанию.
+inherit	                Наследует значение свойства от родительского элемента.
+
+
+                                                               Синтаксис
+
+list-style-type: disc;
+list-style-type: circle;
+list-style-type: square;
+list-style-type: decimal;
+list-style-type: decimal-leading-zero;
+list-style-type: lower-roman;
+list-style-type: upper-roman;
+list-style-type: lower-greek;
+list-style-type: lower-latin;
+list-style-type: upper-latin;
+list-style-type: armenian;
+list-style-type: georgian;
+list-style-type: lower-alpha;
+list-style-type: upper-alpha;
+list-style-type: none;
+list-style-type: inherit;
+list-style-type: initial;

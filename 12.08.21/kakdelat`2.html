@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            background-color: red;
+            text-align: center;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th {
+            background-color: yellow;
+            height: 100px;
+        }
+
+    </style>
+</head>
+
+<body>
+   <!-- 
+rowspan="2" вертикаль
+ colspan="3" горизонталь
+  -->
+   
+    <table>
+        <tr>
+            <!-- рядок 1-->
+            <th colspan="5">Заголовок</th>
+        </tr>
+        <tr>
+            <!-- рядок 2-->
+            <td colspan="2" rowspan="2">комірка 1</td>
+            <td>комірка 3</td>
+            <td>комірка 4</td>
+            <td>комірка 5</td>
+        </tr>
+        <tr>
+            <!-- рядок 3-->
+            <td>комірка 3</td>
+            <td>комірка 4</td>
+            <td>комірка 5</td>
+        </tr>
+        <tr>
+            <!-- рядок 4-->
+            <td rowspan="3">комірка 1</td>
+            <td>комірка 2</td>
+            <td>комірка 3</td>
+            <td>комірка 4</td>
+            <td>комірка 5</td>
+        </tr>
+        <tr>
+            <!-- рядок 5-->
+            <td>комірка 2</td>
+            <td>комірка 3</td>
+            <td>комірка 4</td>
+            <td>комірка 5</td>
+        </tr>
+        <tr>
+            <!-- рядок 6-->
+            <td>комірка 2</td>
+            <td>комірка 3</td>
+            <td>комірка 4</td>
+            <td>комірка 5</td>
+        </tr>
+    </table>
+</body>
+
+</html>
