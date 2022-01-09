@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    background-color: deeppink;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.words {
+    max-width: 1200px;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.cartochka {
+    padding: 20px 15px;
+    text-align: center;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.5);
+-moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.5);
+box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.5);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    min-width: 260px;
+}
+
+.button {
+    margin-top: 15px;
+}
+.button a{
+    text-decoration: none;
+    background-color: deeppink;
+    color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.button a:hover{
+    background-color: blueviolet;
+    color: aquamarine;
+}
