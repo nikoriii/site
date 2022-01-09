@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flexbox</title>
+    <style>
+        .block {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .nav {
+            width: 100%;
+            height: 44px;
+            
+            background-color: aquamarine;
+            display: flex;
+            justify-content: flex-end;
+            align-items: baseline;
+            box-sizing: border-box;
+            padding-top: 6px;
+        }
+
+        div>a {
+            text-decoration: none;
+            color: darkblue;
+            text-align: center;
+            padding: 12px 15px 13px 15px;
+            box-sizing: border-box;
+        }
+        
+        .nav > div:hover:not(:last-child){
+            padding-bottom: 10px;
+            border-bottom: 3px solid darkorchid;
+        }
+        
+        .coll{
+            background-color: darkorchid;
+             border: 1px solid darkorchid;
+            border-radius: 10px;
+            margin-right: 20px;
+                        margin-left: 20px;
+            box-sizing: border-box;
+            }
+         
+        .coll a:hover{
+           background-color: aquamarine;
+            
+             box-sizing: border-box;
+            border-radius: 10px;
+            color:darkblue;
+        }
+        
+        .coll a{
+            color: azure;
+            padding: 5px 20px;
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="block">
+        <div class="nav">
+            <div><a href="#">Home</a></div>
+            <div><a href="#">News</a></div>
+            <div><a href="#">About</a></div>
+            <div><a href="#">Contact</a></div>
+            <div class="coll"><a href="#">Contact us</a></div>
+        </div>
+
+    </div>
+</body></html>

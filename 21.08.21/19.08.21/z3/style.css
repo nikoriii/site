@@ -1,0 +1,44 @@
+.text {
+    font-size: 40pt;
+    font-family: Book Antiqua;
+    color: #CCFFFF;
+    text-indent: 40px;
+    position: relative;
+    z-index: 5;
+
+}
+
+#key {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 4;
+
+}
+
+#anim {
+    position: absolute;
+    top: 300px;
+    left: 330px;
+    z-index: 3;
+
+}
+
+#wtr {
+    position: absolute;
+    top: 80px;
+    left: 320px;
+    z-index: 1;
+}
+
+#html {
+    font-size: 36pt;
+    font-family: Arial Black;
+    color: #330066;
+    position: absolute;
+    top: 140px;
+    left: 500px;
+    z-index: 2;
+
+}
+

@@ -1,0 +1,29 @@
+.portfol {
+    margin: 0 auto;
+    width: 80%;
+    border: 1px solid purple;
+    color: black;
+    padding: 30px;
+    min-height: 100vh;
+    margin-top: 120px;
+}
+p {
+    font-size: 24pt;
+}
+
+.contdan p {
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+}
+.contdan {
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: olive;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
