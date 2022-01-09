@@ -1,0 +1,23 @@
+table {
+    border: 1px solid grey;
+}
+
+th {
+    border: 1px solid grey;
+}
+
+td {
+    border: 1px solid grey;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+
+}
+
+body {
+    color: blueviolet;
+    background-color: coral;
+}
