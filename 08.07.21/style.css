@@ -1,0 +1,44 @@
+      body {
+            color: navy;
+            font-family: Book Antiqua;
+            background-image: url(aa.jpg)
+        }
+
+        .gr {
+            color: green;
+            font-family: Arial;
+        }
+
+        .rd {
+            color: red;
+            font-family: Courier New;
+        }
+
+        .vv {
+            color: #336666;
+            font-family: Tahoma;
+        }
+
+        .ll {
+            width: 300px;
+            height: 2px;
+            background-color: green;
+        }
+
+        .ff {
+            width: 300px;
+            height: 2px;
+            background-color: red;
+        }
+
+        .gg {
+            width: 300px;
+            height: 2px;
+            background-color: #336666;
+        }
+
+        .hh {
+            width: 150px;
+            height: 2px;
+            background-color: black;
+        }
