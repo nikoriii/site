@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Open Sans;
+    background-color: white;
+    color: black;
+}
+
+.block1 {
+    width: 100%;
+    max-width: 1900px;
+    background: url(lemur-ge72f024c8_1920.jpg) center center no-repeat;
+    background-size: cover;
+    color: white;
+    margin: 0 auto;
+    padding: 20px 80px;
+    position: relative;
+    z-index: 1;
+}
+
+.bg {
+    background: rgba(0, 0, 0, 0.4);
+    widows: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 5;
+}
+
+.menu {
+    list-style-type: none;
+    color: inherit;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: greenyellow;
+    font-weight: bold;
+}
+
+.welcom {
+    padding: 150px 0 150px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 5;
+}
+
+h1,
+h2,
+h3,
+p {
+    font-weight: 300;
+}
+
+.welcom h1 {
+    font-size: 50px;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+}
+
+.welcom p {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+a.button {
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    width: 150px;
+    display: block;
+    border-radius: 3px;
+    border: 1px solid white;
+    background: tranparent;
+}
+
+a.button:hover {
+    background-color: greenyellow;
+    color: green;
+}
+
+.services {
+    padding: 50px;
+    text-align: center;
+}
+
+.services-top {
+    margin-bottom: 20px;
+}
+
+.hr {
+    width: 80px;
+    margin: 20px auto;
+    height: 3px;
+    border: none;
+    background-color: greenyellow;
+}
+
+.services-bottom {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.aiko {
+    display: inline-block;
+    font-size: 50px;
+    color: greenyellow;
+    padding: 5px;
+    border: 1px solid grey;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.aiko:hover {
+    color: white;
+    background-color: greenyellow;
+}
+
+.cartochka h3 {
+    padding-bottom: 20px;
+}
+
+.footer {
+    background-color: greenyellow;
+    color: black;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spasite {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+
+}
+
+.aiko2 {
+    display: inline-block;
+    font-size: 25px;
+    color: white;
+    padding: 5px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.aiko2:hover {
+    color: green;
+    background-color: greenyellow;
+}
+
+.cartochka {
+    max-width: 300px;
+}
+
+@media screen and (max-device-width: 425px) {
+    .services-bottom {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-width: 320px;
+        width: 100%;
+    }
+
+    .cartochka {
+        margin-bottom: 20px;
+        max-width: 320px;
+    }
+
+    p {
+        font-size: 32px;
+    }
+    nav{
+        display: none;
+    }
+    .header{
+       
+        justify-content: center;
+    }
+}
